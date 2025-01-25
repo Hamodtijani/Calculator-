@@ -1,0 +1,57 @@
+
+body{
+    background-color: aliceblue;
+}
+.cal{
+    width: 270px;
+    /* padding: 10px; */
+    text-align: end  ;
+    /* display: flex; */
+    background-color: rgb(6, 5, 5);
+    border-radius: 20px;
+    color: whitesmoke;
+    margin: auto;
+}
+.cal button{
+    width: 60px;
+    background-color: transparent;
+    border: none;
+    transition: all ease-in-out .3s;
+
+    color: whitesmoke;
+    height: 60px;
+}
+.sam{
+    padding: 20px;
+    background-color: white ;
+    color: black;
+    height: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid black;
+}
+
+.cal .blue{
+    background-color: blue;
+}
+.cal .blue:hover{
+    background-color: rgb(4, 4, 151);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.v{
+    border-bottom-right-radius: 20px;
+}
+
+.cal button:hover{
+    background-color: rgb(53, 52, 52);
+}
+.b{
+    border-bottom-left-radius: 20px;
+}
+

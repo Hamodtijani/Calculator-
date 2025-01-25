@@ -66,7 +66,6 @@
             ans = Number(num1) / Number(num2)
             console.log(ans)
             result.innerHTML = ans
-
              num1 = ""
             num2 = ""
             
